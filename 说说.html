@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Keywords" content=""/>
+    <meta name="Description" content=""/>
+    <title>练习</title>
+    <style>
+        body, dl, dd, p, h1,h2, h3, h4, h5, h6 {
+            margin: 0;
+        }
+
+        ol, ul, li {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        img {
+            border: none;
+        }
+        .wrap{
+            width:500px;
+            margin:200px auto;
+        }
+        .wrap .mian{
+            width:100%;;
+            height:180px;
+            background:gray;
+        }
+        .wrap .mian textarea#text{
+            width:100%;
+            height: 100px;
+            resize: none;
+            border-radius: 5px;
+        }
+        .wrap .mian span,.wrap .list span{
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+        }
+        .wrap .mian button{
+            margin:20px 0 0 400px;
+            vertical-align: top;
+            background: #74cc4d;
+        }
+        .wrap .list ul li{
+            border-bottom: 1px solid #aaa;
+            vertical-align: top;
+        }
+        .wrap .list ul li span{
+            margin: 10px 10px;
+        }
+    </style>
+</head>
+<body>
+<div class="wrap">
+    <div class="mian">
+        <textarea id="text" placeholder="请输入"></textarea>
+        <span style="background: chocolate;"></span>
+        <button>发表</button>
+    </div>
+    <div class="list">
+        <ul>
+        
+        </ul>
+    </div>
+</div>
+<script src="js/index.js"></script>
+</body>
+</html>
